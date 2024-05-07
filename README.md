@@ -31,7 +31,10 @@ SecurePass is a password manager written in C language that allows users to secu
    ```bash
    git clone https://github.com/Peacemaker675/Password-Manager.git
 
-### Disclaimer
-
-This project was developed for participation in Hacknovate 5.0 . While you are welcome to explore, use, and build upon this project, please note that it was created within the context of the hackathon and may not be production-ready or fully optimized. Feel free to reach out to the project team if you have any questions or feedback.
+2. compile and run:
+   
+   ```bash
+   cd SecurePass_passoword_manager
+   gcc src_code/main.c src_code/source.c -o SecurePass -Iheader_files
+   ./SecurePass
 
