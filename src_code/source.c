@@ -59,7 +59,7 @@ void decryptPassword(char *encryptedPassword) {
 }
 
 void savePasswordToFile(char *serviceName, char *username, char *password) {
-    char filePath[100]; // Adjust the size according to your needs
+    char filePath[100]; 
     sprintf(filePath, "%s%s", VAULT_FOLDER, VAULT_FILE);
     FILE *file = fopen(filePath, "a");
     if (file != NULL) {
@@ -71,7 +71,7 @@ void savePasswordToFile(char *serviceName, char *username, char *password) {
 }
 
 void loadPasswordFromFile() {
-    char filePath[100]; // Adjust the size according to your needs
+    char filePath[100]; 
     sprintf(filePath, "%s%s", VAULT_FOLDER, VAULT_FILE);
     FILE *file = fopen(filePath, "r");
     if (file != NULL) {
