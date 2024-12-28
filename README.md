@@ -1,13 +1,4 @@
 <h1>SecurePass - Password Manager in C</h1>
-<h2>Team Members - </h2>
-<ul>
-  <li>Varun Agarwal (team lead)</li>
-  <li>Shubhanshu Goyal</li>
-  <li>Tushar Gurjar</li>
-  <li>Kartik Bhargawa</li>
-  
-</ul>
-<hr>
 
 SecurePass is a password manager written in C language that allows users to securely store passwords in encrypted form and generate strong random passwords. It provides a simple and efficient solution for managing passwords securely.
 
